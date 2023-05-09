@@ -11,6 +11,7 @@ header.style.justifyContent = "space-around";
 header.style.border = "2px solid black"; 
 header.style.borderRadius = "35px"; 
 header.style.backgroundColor = "Silver"; 
+header.style.width = "100%";
 body.appendChild(header);
 img.src = "img/photo.jpg";
 img.style.width = "200px";
