@@ -31,11 +31,30 @@ for (i = 0; i < el.length; i++) {
     el[i].style.backgroundColor = "red";
 }*/
 
-let arr = [];
+/*let arr = [];
 for (let i = 1; i < 15; i++) {
     if (i % 2 != 0) {
         arr.push(i);
     }
    
 }
-console.log(arr);
+console.log(arr);*/
+
+//Цикл for
+let a_1 = [2, 5, 7, 9, 12, 15];
+let sum_1 = 0;
+for (i = 0; i < a_1.length; i++) {
+    sum_1 = sum_1 + a_1[i];
+ }
+console.log(sum_1);
+
+
+//Цикл while
+let a_2 = [2, 5, 7, 9, 12, 15]
+let res_2 = 0;
+let nub_2 = 0;
+while(nub_2 < a_2.length) {
+    res_2 = res_2 + a_2[nub_2]
+    nub_2++;
+}
+console.log(res_2);
